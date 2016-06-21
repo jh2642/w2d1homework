@@ -1,0 +1,250 @@
+
+
+@media screen and (min-width:750px) {
+  .entirepage {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin:auto;
+  }
+  .bluebox {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-between;
+      min-width: 50%;
+      flex: 1;
+  }
+  .databox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    min-width: 50%;
+    flex: 1;
+  }
+  // .aboutmebox {
+  //   display: flex;
+  //   flex-direction: row;
+  //   flex: 1;
+  //   width: 100%;
+  // }
+  // .aboutmeheader {
+  //   display: flex;
+  //   align-items: center;
+  //   flex-direction: row;
+  //   flex-wrap: wrap;
+  //   align-content: center;
+  //   flex: 1;
+  // }
+  // .aboutmetext {
+  //   display: flex;
+  //   align-items: center;
+  //   flex-direction: row;
+  //   flex-wrap: wrap;
+  //   align-content: center;
+  //   flex: 1;
+  // }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding:0;
+  margin: 0;
+  font-family: sans-serif;
+}
+a:visited {
+  color: rgb(254, 254, 254);
+}
+h4 {
+  color: #1560FB;
+}
+li {
+line-height: 1.5;
+}
+
+.bluebox {
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  width: 100%;
+  background: #1560FB;
+  color: rgb(254, 254, 254);
+}
+.jpg {
+  border-radius: 50% 50% 50% 50%;
+  padding: 4px;
+  width: 300px;
+  height: 300px;
+}
+.selfie {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-self: center;
+  align: center;
+  min-width: 100%;
+  margin-top: 4%;
+}
+.howdie {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-self:center;
+  text-align: center;
+  color: rgb(254, 254, 254);
+}
+.whoami {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}
+.coffee {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  margin-top: 15px;
+  width: 350px;
+  border: 2px rgb(254, 254, 254) solid;
+  margin-bottom: 40px;
+  color: rgb(254, 254, 254);
+}
+.coffeearrow {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.welcomefooterbox {
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  align-content: center;
+  width: 100%;
+  // height: 100px;
+  flex: 1;
+}
+.welcomefooter-left {
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex:5;
+}
+  .leftlogo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  .madein {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    flex: 5;
+  }
+.welcomefooter-right {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-right: 30px;
+  flex: 1;
+}
+.databox {
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  width: 100%;
+}
+.aboutmebox {
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  width: 100%;
+  margin: 10px;
+}
+.projectsbox {
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  width: 100%;
+  margin: 10px;
+}
+.aboutmeheader {
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+  }
+.aboutmetext {
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+  margin: auto;
+  }
+.projectsheader {
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+}
+.projectstext {
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+    margin: auto;
+}
+.sm1 {
+  display: flex;
+  justify-content:space-around;
+  flex-direction:row;
+}
+.sm2 {
+  display: flex;
+  justify-content:space-around;
+  flex-direction:row;
+}
+.sm3 {
+  display: flex;
+  justify-content:space-around;
+  flex-direction:row;
+}
+.sm4 {
+  display: flex;
+  justify-content:space-around;
+  flex-direction:row;
+}
+.sm5 {
+  display: flex;
+  justify-content:space-around;
+  flex-direction:row;
+}
+.projectsheader1 {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction:row;
+}
+.projectsheader2 {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction:row;
+}
+.arrow1 {
+  display: flex;
+  justify-content:flex-start;;
+  flex-direction:row;
+}
