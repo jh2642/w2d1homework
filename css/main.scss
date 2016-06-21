@@ -1,56 +1,4 @@
 
-
-@media screen and (min-width:750px) {
-  .entirepage {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    margin:auto;
-  }
-  .bluebox {
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-content: center;
-      justify-content: space-between;
-      min-width: 50%;
-      flex: 1;
-  }
-  .databox {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-    min-width: 50%;
-    flex: 1;
-  }
-  // .aboutmebox {
-  //   display: flex;
-  //   flex-direction: row;
-  //   flex: 1;
-  //   width: 100%;
-  // }
-  // .aboutmeheader {
-  //   display: flex;
-  //   align-items: center;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  //   align-content: center;
-  //   flex: 1;
-  // }
-  // .aboutmetext {
-  //   display: flex;
-  //   align-items: center;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  //   align-content: center;
-  //   flex: 1;
-  // }
-}
-
 * {
   box-sizing: border-box;
 }
@@ -58,6 +6,7 @@ body {
   padding:0;
   margin: 0;
   font-family: sans-serif;
+  height: 100%;
 }
 a:visited {
   color: rgb(254, 254, 254);
@@ -247,4 +196,11 @@ line-height: 1.5;
   display: flex;
   justify-content:flex-start;;
   flex-direction:row;
+}
+@media screen and (min-width:750px) {
+  .entirepage {
+    display:flex;
+    .bluebox {height:100%;
+    }
+  }
 }
