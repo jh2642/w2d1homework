@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.margins {
+  margin: 20px;
+}
+
+.bluebox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #1560FB;
+  color: #fefefe;
+  text-align: center;
+}
+
+.selfie-circle {
+  margin-top: 4%;
+  border-radius: 50%;
+  width: 50%;
+}
+
+.coffee-button {
+  padding: 4%;
+  border: 2px #fefefe solid;
+  margin-bottom: 40px;
+  color: #fefefe;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.welcomefooterbox {
+  display: flex;
+}
+
+.welcomefooter-left {
+  display: flex;
+  flex: 5;
+}
+
+.welcomefooter-left a {
+  text-decoration: none;
+  color: #fefefe;
+}
+
+.leftlogo {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.madein {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: #fefefe;
+}
+
+.welcomefooter-right {
+  display: flex;
+}
+
+.welcomefooter-right .fa {
+  color: #fefefe;
+}
+
+.databox {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutmebox {
+  flex-direction: column;
+  margin: 10px;
+}
+
+.projectsbox {
+  margin: 10px;
+}
+
+.projectsbox .fa {
+  color: #1560FB;
+  margin-left: 15px;
+}
+
+.pers-header {
+  color: #1560FB;
+}
+
+.aboutmetext {
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+}
+
+.aboutmetext .fa {
+  color: #1560FB;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.sm {
+  justify-content: space-around;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  .entirepage {
+    display: flex;
+  }
+  .entirepage .bluebox {
+    flex: 1;
+    padding-top: 100px;
+  }
+  .entirepage .bluebox .coffee-button {
+    margin-top: 30px;
+  }
+  .entirepage .bluebox .welcomefooterbox {
+    margin-top: 50px;
+  }
+  .databox {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .entirepage {
+    display: flex;
+  }
+  .entirepage .bluebox {
+    flex: 1;
+    padding-top: 100px;
+  }
+  .entirepage .bluebox .coffee-button {
+    margin-top: 30px;
+  }
+  .entirepage .bluebox .welcomefooterbox {
+    margin-top: 50px;
+  }
+  .databox {
+    display: flex;
+    flex-direction: column;
+  }
+  .databox .aboutmebox {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+  }
+  .databox .aboutmebox .pers-header {
+    flex: 1;
+  }
+  .databox .aboutmebox .aboutmetext {
+    flex: 3;
+  }
+  .projectsbox {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+  }
+  .projectsbox .pers-header {
+    flex: 1;
+  }
+  .projectsbox .projectstext {
+    flex: 3;
+  }
+}

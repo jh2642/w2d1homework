@@ -1,0 +1,174 @@
+$color-blue: #1560FB;
+$color-white: rgb(254, 254, 254);
+
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.margins {
+    margin: 20px;
+}
+
+.bluebox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: $color-blue;
+    color: $color-white;
+    text-align: center;
+}
+
+.selfie-circle {
+    margin-top: 4%;
+    border-radius: 50%;
+    width: 50%;
+}
+
+.coffee-button {
+    padding: 4%;
+    border: 2px $color-white solid;
+    margin-bottom: 40px;
+    color: $color-white;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.welcomefooterbox {
+    display: flex;
+}
+
+.welcomefooter-left {
+    display: flex;
+    flex: 5;
+    a {
+      text-decoration: none;
+      color: $color-white;
+    }
+}
+
+.leftlogo {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.madein {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: $color-white;
+}
+
+.welcomefooter-right {
+    display: flex;
+    .fa {
+      color: $color-white;
+    }
+}
+
+.databox {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutmebox {
+    flex-direction: column;
+    margin: 10px;
+}
+
+.projectsbox {
+    margin: 10px;
+    .fa {
+      color: $color-blue;
+      margin-left: 15px;
+    }
+}
+
+.pers-header {
+    color: $color-blue;
+}
+
+.aboutmetext {
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    .fa {
+      color: $color-blue;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+}
+
+.projectstext {
+
+}
+.sm {
+    justify-content: space-around;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width:750px) {
+  .entirepage {
+    display:flex;
+    .bluebox {
+      flex:1;
+      padding-top: 100px;
+      .coffee-button {
+        margin-top: 30px;
+      }
+      .welcomefooterbox {
+        margin-top: 50px;
+      }
+    }
+    }
+    .databox {
+      flex:1;
+    }
+}
+
+@media screen and (min-width:1000px) {
+  .entirepage {
+    display:flex;
+    .bluebox {
+      flex:1;
+      padding-top: 100px;
+      .coffee-button {
+        margin-top: 30px;
+      }
+      .welcomefooterbox {
+        margin-top: 50px;
+      }
+    }
+  }
+    .databox {
+      display: flex;
+    flex-direction: column;
+      .aboutmebox {
+        flex: 5;
+    display: flex;
+    flex-direction: row;
+        .pers-header {
+        flex: 1;}
+          .aboutmetext {
+          flex: 3;}
+  }
+}
+      .projectsbox {
+        flex: 5;
+        display: flex;
+        flex-direction: row;
+        .pers-header {
+          flex:1;}
+          .projectstext {
+          flex: 3;}
+  }  
+}
