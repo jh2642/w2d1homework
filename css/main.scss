@@ -1,21 +1,20 @@
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
-  padding:0;
-  margin: 0;
-  font-family: sans-serif;
-  height: 100%;
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
 }
 a:visited {
-  color: rgb(254, 254, 254);
+    color: rgb(254, 254, 254);
 }
 h4 {
-  color: #1560FB;
+    color: #1560FB;
 }
 li {
-line-height: 1.5;
+    line-height: 1.5;
 }
 //
 // .bluebox {
@@ -220,26 +219,30 @@ line-height: 1.5;
     }
 }
 .selfie2 {
-  display: flex;
-  justify-content:center;
-  align: center;
-  padding-top: 50px;
-  .jpg2 {
-    border-radius: 50% 50% 50% 50%;
-    padding: 4px;
-    width: 300px;
-    height: 300px;
-  }
+    display: flex;
+    justify-content:center;
+    align: center;
+    padding-top: 50px;
+    .jpg2 {
+        border-radius: 50% 50% 50% 50%;
+        padding: 4px;
+        width: 300px;
+        height: 300px;
+    }
 }
 .howdie2 {
-  text-align: center;
-  color: rgb(254, 254, 254);
+    text-align: center;
+    color: rgb(254, 254, 254);
 }
 .whoami2 {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
     p {
         font-size: 30px;
+        font-weight: bold;
+        .nobold {
+            font-weight: 100;
+        }
     }
 }
 .coffee2 {
@@ -252,92 +255,105 @@ line-height: 1.5;
     margin-bottom: 40px;
 }
 .coffeearrow2 {
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
 }
 .sm {
- margin: 5px;
+    margin: 5px;
 }
 .welcomefooterbox2 {
-  display:flex;
-  padding-bottom: 30px;
+    display:flex;
+    padding-bottom: 30px;
 }
 .welcomefooter-left2 {
-  display:flex;
-  align-items:center;
-  flex-direction:row;
-  flex-wrap: nowrap;
-  align-content: center;
-  flex:5;
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex:5;
 }
-  .leftlogo2 {
+.leftlogo2 {
     display: flex;
     flex: 1;
     padding-left: 15px;
     a {
         text-decoration: none;
     }
-  }
-  .madein2 {
+}
+.madein2 {
     margin-left: 10px;
-  }
+}
 .welcomefooter-right2 {
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  margin-right: 10px;
-  flex: 1;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 10px;
+    flex: 1;
 }
 .aboutmebox2 {
-  margin: 10px;
+    margin: 10px;
 }
 .aboutmeheader2,
 .projectsheader2-2 {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 .projectsbox2 {
-  margin: 10px;
+    margin: 10px;
 }
- ul li {
-     list-style-type: none;
- }
- .fa-angle-right{
-     margin-right: 10px;
-     color: #1560FB;
- }
- @media screen and (min-width:750px) {
-   .mainBox {
-     display:flex;
-     flex-direction: row;
-   }
-   .topBox {
-       flex:1;
-   }
-   .bottomBox {
-       flex:1;
-   }
-   @media screen and (min-width:1024px) {
-       .aboutmebox2,
-       .projectsbox2 {
-           display: flex;
-       }
-       .aboutmeheader2,
-       .projectsheader2-2 {
-         flex: 1;
-         margin-top: 0px;
-         margin-left: 30px;
-       }
-       .aboutmetext2,
-       .projectstext2 {
-          flex: 3;
-          margin-top: 0px;
-       }
-       .aboutmebox2 {
-           margin-top: 0px;
-       }
-       .aboutmetext2 {
+ul {
+    padding: 0;
+    li {
+        list-style-type: none;
+    }
+}
+.fa-angle-right{
+    margin-right: 10px;
+    color: #1560FB;
+}
+@media screen and (min-width:750px) {
+    .mainBox {
+        display:flex;
+        flex-direction: row;
+    }
+    .topBox {
+        flex:1;
+    }
+    .bottomBox {
+        flex:1;
+    }
+    @media screen and (min-width:1024px) {
+        .howdie2 {
+            font-size: 15px;
+        }
+        .whoami2 {
+            p {
+                font-size: 40px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+        .aboutmebox2,
+        .projectsbox2 {
+            display: flex;
+        }
+        .aboutmeheader2,
+        .projectsheader2-2 {
+            flex: 1;
+            margin-top: 0px;
+            margin-left: 30px;
+        }
+        .aboutmetext2,
+        .projectstext2 {
+            flex: 3;
+            margin-top: 0px;
+        }
+        .aboutmebox2 {
+            margin-top: 0px;
+        }
+        .aboutmetext2 {
             margin-top: 20px;
-       }
-   }
- }
+        }
+    }
+}
